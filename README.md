@@ -1,8 +1,22 @@
-# React + Vite
+# React Random Number Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that demonstrates how to generate random numbers using JavaScript's `Math.random()`, `Math.floor()`, and `Math.ceil()` methods. The app features a user-friendly interface where users can generate random numbers within a specified range.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Generate random numbers between a given range.
+- Use of React hooks (`useState`, `useEffect`) to manage state and side effects.
+- Random number generation logic using JavaScript's `Math` methods.
+
+## Technologies Used
+
+- React
+- JavaScript
+- Hooks (`useState`, `useEffect`)
+- Css
+
+## Usage
+
+1. Open the app in your browser.
+2. Click the "Generate Random Number" button to generate a random number within the specified range.
+3. The number will appear on the screen along with the count of how many times a number has been generated.
