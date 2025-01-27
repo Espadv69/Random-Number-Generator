@@ -6,4 +6,20 @@ const RangeInput = ({ min, max, setMin, setMax }) => {
   const handleMaxChange = (e) => {
     setMax(Nummber(e.target.value))
   }
+
+  return (
+    <div>
+      <label>
+        Min:
+        <input type="number" value={min} onChange={handleMinChange} />
+      </label>
+
+      <label>
+        Max:
+        <input type="number" value={max} onChange={handleMaxChange} />
+      </label>
+    </div>
+  )
 }
+
+export default RangeInput
