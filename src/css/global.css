@@ -29,3 +29,21 @@ body {
 button {
   cursor: pointer;
 }
+
+.generateBtn {
+  margin-top: 1rem;
+  padding: 1rem 1.4rem;
+
+  width: 100%;
+  max-width: 220px;
+
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+
+  border: 5px solid lightgoldenrodyellow;
+  border-radius: 10px;
+
+  color: currentColor;
+  background: transparent;
+}
