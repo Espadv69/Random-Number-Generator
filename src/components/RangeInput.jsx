@@ -8,7 +8,7 @@ const RangeInput = ({ min, max, setMin, setMax }) => {
   }
 
   return (
-    <div>
+    <div className="form-rangeInput">
       <label>
         Min:
         <input type="number" value={min} onChange={handleMinChange} />
