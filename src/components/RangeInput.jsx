@@ -4,7 +4,7 @@ const RangeInput = ({ min, max, setMin, setMax }) => {
   }
 
   const handleMaxChange = (e) => {
-    setMax(Nummber(e.target.value))
+    setMax(Number(e.target.value))
   }
 
   return (
