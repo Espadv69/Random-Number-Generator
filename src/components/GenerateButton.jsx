@@ -1,5 +1,5 @@
 const GenerateButton = ({ onGenerate }) => {
-  return <button onClick={onGenerate}>Generate Random Number</button>
+  return <button className="generateBtn" onClick={onGenerate}>Generate Random Number</button>
 }
 
 export default GenerateButton
