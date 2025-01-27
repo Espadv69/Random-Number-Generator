@@ -22,4 +22,14 @@ const App = () => {
     setRandomNumber(number)
     setCount((prevCount) => prevCount + 1)
   }
+
+  return (
+    <main>
+      <RandomNumberDisplay randomNumber={randomNumber} count={count} />
+      <RangeInput min={min} max={max} setMin={setMin} setMax={setMax} />
+      <GenerateButton onGenerate={handleGenerate} />
+    </main>
+  )
 }
+
+export default App
