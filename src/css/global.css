@@ -60,5 +60,31 @@ button {
 
 .generatedNumber,
 .counter {
+  padding: 0rem 0.8rem;
+
   font-size: 19px;
+}
+
+.form-rangeInput {
+  margin: 1rem auto;
+  padding: 1rem;
+
+  width: 100%;
+  max-width: 500px;
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+
+  label {
+    display: flex;
+    gap: 5px;
+  }
+
+  input {
+    padding: 0.4rem;
+
+    border: 2px solid white;
+    border-radius: 5px;
+  }
 }
