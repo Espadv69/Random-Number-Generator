@@ -11,4 +11,15 @@ const App = () => {
   const [max, setMax] = useState(100) // Initial value
   const [randomNumber, setRandomNumber] = useState(null) // Generated number
   const [count, setCount] = useState(0) // Generation counter
+
+  const handleGenerate = () => {
+    if (min >= max) {
+      alert('Min value should be less than Max value')
+      return
+    }
+
+    const number = getRandomNumber(min, max)
+    setRandomNumber(number)
+    setCount((prevCount) => prevCount + 1)
+  }
 }
